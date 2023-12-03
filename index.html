@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras de Pesca</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Carrito de Compras de Pesca</h1>
+
+        <!-- Lista de productos -->
+        <ul id="product-list" class="product-list">
+            <li data-id="1" data-name="Caña de pescar" data-price="50">Caña de pescar - $50</li>
+            <li data-id="2" data-name="Señuelo" data-price="5">Señuelo - $5</li>
+            <li data-id="3" data-name="Carrete de pesca" data-price="30">Carrete de pesca - $30</li>
+        </ul>
+
+        <!-- Carrito de compras -->
+        <h2>Carrito de Compras</h2>
+        <ul id="cart" class="cart"></ul>
+
+        <p>Total: $<span id="total">0</span></p>
+
+        <button id="clear-cart" class="clear-cart">Vaciar Carrito</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
